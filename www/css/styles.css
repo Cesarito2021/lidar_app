@@ -1,0 +1,82 @@
+/* Custom styles.css */
+
+/* Brandon Grotesque Fonts (replace with your actual URLs) */
+@font-face {
+  font-family: 'Brandon Grotesque Black';
+  font-style: normal;
+  font-weight: 900;
+  src: url('https://your-hosting-url/BrandonGrotesqueBlack.woff2') format('woff2'),
+       url('https://your-hosting-url/BrandonGrotesqueBlack.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://your-hosting-url/BrandonGrotesqueBold.woff2') format('woff2'),
+       url('https://your-hosting-url/BrandonGrotesqueBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://your-hosting-url/BrandonGrotesqueRegular.woff2') format('woff2'),
+       url('https://your-hosting-url/BrandonGrotesqueRegular.woff') format('woff');
+}
+
+
+/* Body and Headings */
+body {
+  font-family: 'Brandon Grotesque Regular', sans-serif;  /* Use Brandon Grotesque Regular for body text */
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Brandon Grotesque Black', sans-serif;  /* Use Brandon Grotesque Black for H1 */
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Brandon Grotesque Bold', sans-serif;   /* Use Brandon Grotesque Bold for H2 */
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Brandon Grotesque Bold', sans-serif;   /* Use Brandon Grotesque Bold for H3 */
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* Other elements */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.figure {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.figure img {
+  width: 80%;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+}

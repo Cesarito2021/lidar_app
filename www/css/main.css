@@ -1,0 +1,249 @@
+/* ===========================
+   FONTS (Brandon Grotesque)
+   =========================== */
+
+@font-face {
+  font-family: 'Brandon Grotesque Black';
+  font-style: normal;
+  font-weight: 900;
+  src: url('fonts/BrandonGrotesqueBlack.woff2') format('woff2'),
+       url('fonts/BrandonGrotesqueBlack.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/BrandonGrotesqueBold.woff2') format('woff2'),
+       url('fonts/BrandonGrotesqueBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/BrandonGrotesqueRegular.woff2') format('woff2'),
+       url('fonts/BrandonGrotesqueRegular.woff') format('woff');
+}
+
+/* ===========================
+   GLOBAL BODY & TYPO
+   =========================== */
+
+body {
+  font-family: 'Brandon Grotesque Regular', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #111827;   /* dark slate */
+  color: #e5e7eb;              /* light grey text */
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Brandon Grotesque Bold', sans-serif;
+  color: #f9fafb;              /* almost white */
+}
+
+h1 { font-size: 22px; }
+h2 { font-size: 18px; }
+h3 { font-size: 16px; }
+
+/* ===========================
+   SHINY DASHBOARD STRUCTURE
+   =========================== */
+
+/* Header / top bar */
+.skin-blue .main-header .navbar,
+.skin-blue .main-header .logo {
+  background-color: #020617 !important;   /* very dark */
+  border-bottom: 1px solid #0f172a;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+  color: #e5e7eb;
+}
+
+.skin-blue .main-header .logo {
+  color: #fbbf24 !important;             /* warm accent (gold) */
+  font-family: 'Brandon Grotesque Black';
+  font-size: 22px;
+}
+
+/* Sidebar */
+.skin-blue .main-sidebar {
+  background-color: #020617;
+}
+
+.skin-blue .sidebar-menu > li > a {
+  color: #e5e7eb !important;
+}
+
+.skin-blue .sidebar-menu > li.active > a,
+.skin-blue .sidebar-menu > li > a:hover {
+  background-color: #111827 !important;
+  color: #fbbf24 !important;
+  border-left: 3px solid #fbbf24;
+}
+
+/* Content background */
+.content-wrapper,
+.right-side {
+  background-color: #111827;
+}
+
+/* Boxes, panels, cards */
+.box {
+  background: #0f172a;                   /* slightly lighter than body */
+  border: 1px solid #1f2937;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.box-header {
+  color: #f9fafb;
+  border-bottom: 1px solid #1f2937;
+}
+
+.box-title {
+  font-family: 'Brandon Grotesque Bold';
+}
+
+/* ===========================
+   BUTTONS & PROGRESS BAR
+   =========================== */
+
+.btn {
+  border-radius: 4px;
+  border: none;
+}
+
+/* primary = cyan, secondary = gold */
+.btn-primary,
+.btn-info {
+  background-color: #38bdf8;
+  color: #020617;
+}
+
+.btn-primary:hover,
+.btn-info:hover {
+  background-color: #0ea5e9;
+  color: #020617;
+}
+
+.btn-success {
+  background-color: #22c55e;
+  color: #020617;
+}
+
+.btn-success:hover {
+  background-color: #16a34a;
+}
+
+/* for your inline-styled buttons this just harmonises progress bars */
+.progress-bar {
+  background-color: #fbbf24;
+}
+
+/* Horizontal rule */
+hr {
+  border: 1px solid #1f2937;
+}
+
+/* ===========================
+   DATATABLES
+   =========================== */
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter label,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_processing,
+.dataTables_wrapper .dataTables_paginate {
+  color: #e5e7eb;
+}
+
+table.dataTable {
+  border-collapse: collapse;
+}
+
+table.dataTable thead th {
+  background-color: #020617;
+  color: #f9fafb;
+}
+
+table.dataTable tbody tr {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+table.dataTable tbody tr:nth-child(even) {
+  background-color: #111827;
+}
+
+/* hover row */
+table.dataTable tbody tr:hover {
+  background-color: #1f2937;
+}
+
+/* ===========================
+   SLIDERS (if ever used)
+   =========================== */
+
+.irs--shiny .irs-bar {
+  background: #fbbf24;
+  border-top: 1px solid #fbbf24;
+  border-bottom: 1px solid #fbbf24;
+}
+
+/* ===========================
+   FORM PANEL (sidebarPanel in main content)
+   make configuration box text readable
+   =========================== */
+
+.well {
+  background-color: #020617;        /* same as header/sidebar */
+  color: #e5e7eb;
+  border: 1px solid #1f2937;
+}
+
+/* Labels & help text inside configuration panel */
+.well .control-label,
+.well label,
+.well .help-block,
+.well .shiny-input-container > label {
+  color: #f9fafb;
+  font-weight: 500;
+}
+
+/* Headings inside the panel, if any */
+.well h4,
+.well h5 {
+  color: #f9fafb;
+}
+
+/* Text inputs, numeric inputs, select boxes, etc. */
+.form-control {
+  background-color: #020617;
+  color: #e5e7eb;
+  border: 1px solid #1f2937;
+}
+
+/* Placeholder text in inputs */
+.form-control::placeholder {
+  color: #9ca3af;
+}
+
+/* Make disabled / read-only inputs still legible on dark bg */
+.form-control[disabled],
+.form-control[readonly] {
+  background-color: #111827;
+  color: #9ca3af;
+}
+
+/* ===========================
+   MISC
+   =========================== */
+
+@media only screen and (max-width: 600px) {
+  #img {
+    width: 330px !important;
+    height: 220px !important;
+  }
+}
