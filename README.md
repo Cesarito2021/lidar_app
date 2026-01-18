@@ -1,4 +1,4 @@
-# ALS downloader Shiny app
+# ALS downloader web-based shiny app
 
 ALS downloader is a Shiny web application developed within the **NSF-funded OpenForest4D project** for searching, exploring, and downloading **USGS 3DEP ALS (LiDAR) LAZ/LAS data** from **OpenTopography**. The application enables users to query LiDAR data by area of interest and acquisition year, explore data availability and spatial coverage, and download selected LAZ/LAS tiles locally while leveraging multicore parallel processing for efficient and scalable data retrieval.
 
@@ -15,9 +15,7 @@ ALS downloader is a Shiny-based application designed to search, explore, and dow
 
 The application allows users to define a study area (AOI), identify ALS tile availability across years and projects, and download selected LAZ tiles locally, leveraging multi-core parallel processing.
 
-🔗 Online demo (search & availability only)
-
-https://d1kw4k-cesar0ivan-alvites0diaz.shinyapps.io/lidar_app/
+[![Shiny App](https://img.shields.io/badge/Shiny-App-blue?logo=r)](https://d1kw4k-cesar0ivan-alvites0diaz.shinyapps.io/lidar_app/)
 
 ⚠️ Important
 
