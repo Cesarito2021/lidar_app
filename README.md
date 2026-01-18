@@ -8,7 +8,7 @@ https://portal.opentopography.org/datasets
 🔗 NSF-funded OpenForest4D project:  
 https://openforest4d.org/
 
-## User Interface
+---
 
 ![Application banner](www/logo/logo_300dpi.png)
 
