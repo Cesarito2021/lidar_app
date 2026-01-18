@@ -1,4 +1,4 @@
-# ALS downloader (named lidar_app)
+# ALS downloader Shiny app
 
 A Shiny application for discovering and downloading USGS 3DEP ALS (LiDAR) LAZ data
 available through OpenTopography.
