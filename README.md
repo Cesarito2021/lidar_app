@@ -15,7 +15,7 @@ ALS downloader is a Shiny-based application designed to search, explore, and dow
 
 The application allows users to define a study area (AOI), identify ALS tile availability across years and projects, and download selected LAZ tiles locally, leveraging multi-core parallel processing.
 
-[![Shiny App](https://img.shields.io/badge/Shiny-App-blue?logo=r)](https://d1kw4k-cesar0ivan-alvites0diaz.shinyapps.io/lidar_app/)
+[![Shiny App](https://img.shields.io/badge/Shiny-App-blue?logo=r)](https://d1kw4k-cesar0ivan-alvites0diaz.shinyapps.io/als_downloader/)
 
 ⚠️ Important
 
