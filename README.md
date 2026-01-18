@@ -9,17 +9,15 @@ https://portal.opentopography.org/datasets
 
 ![Application banner](www/logo/logo_300dpi.png)
 
-## Access
-
-🔗 Online demo (search & availability only)
-
-https://d1kw4k-cesar0ivan-alvites0diaz.shinyapps.io/lidar_app/
-
-## Overview
+## Overview and Access
 
 ALS downloader is a Shiny-based application designed to search, explore, and download Airborne Laser Scanning (ALS / LiDAR) data from the USGS 3DEP program.
 
 The application allows users to define a study area (AOI), identify ALS tile availability across years and projects, and download selected LAZ tiles locally, leveraging multi-core parallel processing.
+
+🔗 Online demo (search & availability only)
+
+https://d1kw4k-cesar0ivan-alvites0diaz.shinyapps.io/lidar_app/
 
 ⚠️ Important
 
