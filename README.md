@@ -5,6 +5,9 @@ ALS downloader is a Shiny web application developed within the **NSF-funded Open
 🔗 USGS 3DEP datasets on OpenTopography:  
 https://portal.opentopography.org/datasets
 
+🔗 NSF-funded OpenForest4D project:  
+https://openforest4d.org/
+
 ## User Interface
 
 ![Application banner](www/logo/logo_300dpi.png)
@@ -33,7 +36,7 @@ D) LiDAR Tile Discovery
 E) ALS Data Download
 F) Application Header and Project Context
 
-![Image](https://github.com/user-attachments/assets/ceb2b802-b167-4990-9c20-707e322fa83f)
+![Image](https://github.com/user-attachments/assets/987e0fdb-7c56-48b8-905f-5c5d63d4fae1)
 
 ## Purpose and Use Cases
 
