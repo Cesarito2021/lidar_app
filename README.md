@@ -1,7 +1,6 @@
 # ALS downloader Shiny app
 
-A Shiny application for discovering and downloading USGS 3DEP ALS (LiDAR) LAZ data
-available through OpenTopography.
+ALS downloader is a Shiny web application developed within the **NSF-funded OpenForest4D project** for searching, exploring, and downloading **USGS 3DEP ALS (LiDAR) LAZ/LAS data** from **OpenTopography**. The application enables users to query LiDAR data by area of interest and acquisition year, explore data availability and spatial coverage, and download selected LAZ/LAS tiles locally while leveraging multicore parallel processing for efficient and scalable data retrieval.
 
 🔗 USGS 3DEP datasets on OpenTopography:  
 https://portal.opentopography.org/datasets
