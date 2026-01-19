@@ -22,8 +22,7 @@ The application allows users to define a study area (AOI), identify ALS tile ava
 
 ⚠️ Important
 
-Due to cloud execution constraints, parallel downloads are only available when running the app locally.
-The hosted Shiny version is intended only for data discovery and availability assessment.
+Because the hosted Shiny environment restricts parallel processing and heavy downloads, parallel downloads are only available when running the app locally. The Shiny online version is intended for data discovery only.
 
 ## Application Architecture
 
@@ -117,7 +116,7 @@ shiny::runApp("app.R")
 ## Workflow Tutorial
 
 This section describes the **step-by-step workflow** for discovering and downloading
-USGS 3DEP ALS (LiDAR) data using `lidar_app`.  
+USGS 3DEP ALS (LiDAR) data using `als_downloader`.  
 The workflow guides users from **AOI definition** to **local LAZ data acquisition**.
 
 ---
@@ -141,8 +140,6 @@ This step controls download performance:
 
 - users specify the number of CPU cores to be used
 - parallel downloads significantly reduce acquisition time for large AOIs
-
-⚠️ This option is effective **only when running the app locally**.
 
 ---
 
