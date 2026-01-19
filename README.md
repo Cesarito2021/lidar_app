@@ -65,7 +65,7 @@ However, the **challenges (limitations)** differ depending on the execution envi
 
 ---
 
-### Challenges / Limitations (by execution mode)
+### Limitations (by execution mode)
 
 | Execution Mode | Challenges / Limitations |
 |---------------|--------------------------|
